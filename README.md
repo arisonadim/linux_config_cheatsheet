@@ -37,16 +37,10 @@ alias weather="curl wttr.in/krasnoyarsk"
 ```
 source ~/.zshrc
 ```
-If troubles with Agnoster theme - use this fonts ((anon):12: character not in range)
+If troubles with Agnoster theme - use this fonts ((anon):12: character not in range).
 Don't forget restart session
 ```
-cd ~/.oh-my-zsh
-
-git clone https://github.com/powerline/fonts.git --depth=1
-
-cd fonts && ./install.sh
-
-cd .. && rm -rf fonts
+cd ~/.oh-my-zsh && git clone https://github.com/powerline/fonts.git --depth=1 && cd fonts && ./install.sh && cd .. && rm -rf fonts
 ```
 Syntax highlighting
 ```
