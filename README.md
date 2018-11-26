@@ -17,6 +17,9 @@ chsh -s /bin/zsh
 Custom config
 ```
 ZSH_THEME="agnoster" 
+...
+alias wanip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias weather="curl wttr.in/krasnoyarsk"
 ```
 
 If troubles with Agnoster theme - use this fonts
