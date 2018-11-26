@@ -5,6 +5,13 @@ Setup minimal packages
 ```
 apt-get update && apt-get install -y git-core sudo curl fail2ban zsh
 ```
+Fix locale
+```
+apt install --reinstall locales
+dpkg-reconfigure locales
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8
+source ~/.zshrc
+```
 Oh my Zsh (auto)
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
