@@ -31,8 +31,10 @@ ZSH_THEME="agnoster"
 alias wanip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias weather="curl wttr.in/krasnoyarsk"
 ```
-
-If troubles with Agnoster theme - use this fonts
+```
+source ~/.zshrc
+```
+If troubles with Agnoster theme - use this fonts ((anon):12: character not in range)
 ```
 cd ~/.oh-my-zsh
 
