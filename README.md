@@ -3,7 +3,7 @@ To start from zero for Debian||Ubuntu
 
 Setup minimal packages
 ```
-apt-get update && apt-get install -y git-core sudo curl fail2ban zsh
+apt-get update && apt-get install -y git-core sudo curl fail2ban zsh vim
 ```
 Fix locale
 ```
@@ -22,6 +22,9 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 chsh -s /bin/zsh
 ```
 Custom config
+```
+vim ~/.zshrc
+```
 ```
 ZSH_THEME="agnoster" 
 ...
