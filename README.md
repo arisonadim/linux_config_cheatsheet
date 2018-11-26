@@ -27,7 +27,10 @@ vim ~/.zshrc
 ```
 ```
 ZSH_THEME="agnoster" 
-...
+#...
+export LC_ALL="en_US.UTF-8"
+export LANGUAGE="en_US.UTF-8"
+#...
 alias wanip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias weather="curl wttr.in/krasnoyarsk"
 ```
@@ -35,6 +38,7 @@ alias weather="curl wttr.in/krasnoyarsk"
 source ~/.zshrc
 ```
 If troubles with Agnoster theme - use this fonts ((anon):12: character not in range)
+Don't forget restart session
 ```
 cd ~/.oh-my-zsh
 
@@ -49,4 +53,5 @@ Syntax highlighting
 cd ~/.oh-my-zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+source ~/.zshrc
 ```
