@@ -3,7 +3,7 @@ To start from zero for Debian||Ubuntu
 
 Setup minimal packages
 ```
-apt-get update && apt-get install -y git-core sudo curl fail2ban zsh vim htop
+apt-get update && apt-get install -y git-core sudo curl fail2ban zsh vim htop dnsutils
 ```
 Fix locale
 ```
