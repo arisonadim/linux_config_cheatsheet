@@ -56,3 +56,8 @@ sudo chmod 600 /swapfile &&
 sudo mkswap /swapfile &&
 sudo swapon /swapfile &&
 free -m
+```
+Create DB user, database and grant  privileges
+```
+GRANT ALL PRIVILEGES ON dbTest.* To 'user'@'hostname' IDENTIFIED BY 'password';
+```
