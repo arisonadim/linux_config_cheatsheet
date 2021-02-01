@@ -59,5 +59,6 @@ free -m
 ```
 Create DB user, database and grant  privileges
 ```
-GRANT ALL PRIVILEGES ON dbTest.* To 'user'@'hostname' IDENTIFIED BY 'password';
+CREATE DATABASE dbName;
+GRANT ALL PRIVILEGES ON dbName.* To 'user'@'hostname' IDENTIFIED BY 'password';
 ```
