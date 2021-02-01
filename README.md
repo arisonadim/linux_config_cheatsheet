@@ -60,5 +60,5 @@ free -m
 Create DB user, database and grant  privileges
 ```
 CREATE DATABASE dbName;
-GRANT ALL PRIVILEGES ON dbName.* To 'user'@'hostname' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON dbName.* To 'user'@'localhost' IDENTIFIED BY 'password';
 ```
