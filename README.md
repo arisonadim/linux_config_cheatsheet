@@ -42,6 +42,10 @@ Don't forget restart session
 ```
 cd ~/.oh-my-zsh && git clone https://github.com/powerline/fonts.git --depth=1 && cd fonts && ./install.sh && cd .. && rm -rf fonts
 ```
+ensure you have locales
+```
+apt-get install -y locales locales-all
+```
 Syntax highlighting
 ```
 cd ~/.oh-my-zsh
