@@ -57,6 +57,10 @@ sudo mkswap /swapfile &&
 sudo swapon /swapfile &&
 free -m
 ```
+Install Nginx
+```
+apt-get update && apt-get install -y nginx
+```
 Create DB user, database and grant  privileges
 ```
 CREATE DATABASE dbName;
